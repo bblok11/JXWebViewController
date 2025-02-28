@@ -5,6 +5,7 @@
 //  Created by swordray on 01/17/2018.
 //  Copyright (c) 2018 swordray. All rights reserved.
 //
+import UIKit
 
 func JXLocalizedString(_ key: String) -> String {
     guard let path = Bundle(for: JXWebViewController.self).path(forResource: "JXWebViewController", ofType: "bundle") else { return "" }
